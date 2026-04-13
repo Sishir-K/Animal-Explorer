@@ -1,0 +1,12 @@
+{
+  "name": "Megalodon",
+  "folder": "megalodon",
+  "category": "Extinct",
+  "breeds": ["Otodus megalodon"],
+  "scientific_name": "Otodus megalodon",
+  "description": "Megalodon (Otodus megalodon) was a gigantic prehistoric shark that lived from the early Miocene to the Pliocene. It had massive jaws and teeth up to 7 inches long. Megalodon was a top ocean predator, feeding on whales and large fish before going extinct about 3.6 million years ago.",
+  "habitat": "Oceans worldwide.",
+  "diet": "Whales, large fish.",
+  "lifespan": {"wild": "30-50 years", "protected": "N/A"},
+  "image": ["megalodon.jpg","megalodon1.jpg"]
+}

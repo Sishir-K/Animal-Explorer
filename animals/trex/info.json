@@ -1,0 +1,12 @@
+{
+  "name": "T-Rex",
+  "folder": "trex",
+  "category": "Extinct",
+  "breeds": ["Tyrannosaurus rex"],
+  "scientific_name": "Tyrannosaurus rex",
+  "description": "Tyrannosaurus rex, commonly known as T. rex, was one of the largest meat‑eating dinosaurs, living in North America during the Late Cretaceous. It had powerful jaws and tiny arms. It became extinct along with most dinosaurs about 66 million years ago.",
+  "habitat": "Forests and floodplains.",
+  "diet": "Large herbivorous dinosaurs.",
+  "lifespan": {"wild": "20-30 years", "protected": "N/A"},
+  "images": ["trex.jpg"]
+}

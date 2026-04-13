@@ -1,0 +1,12 @@
+{
+"name": "Axolotl",
+"folder": "axolotl",
+"category": "Endangered",
+"breeds": ["Wild-type", "Leucistic", "Golden Albino"],
+"scientific_name": "Ambystoma mexicanum",
+"description":"The axolotl (Ambystoma mexicanum) is a neotenic salamander native to Mexican freshwater lakes. It is known for retaining larval features throughout life and remarkable regenerative abilities, including regrowing limbs and organs. Axolotls are critically endangered in the wild due to habitat loss and pollution.",
+"habitat": "Freshwater lakes in Mexico.",
+"diet": "Small aquatic animals, worms, insects.",
+"lifespan": {"wild": "10-15 years", "protected": "15-20 years"},
+"images": ["axolotl.jpg"]
+}

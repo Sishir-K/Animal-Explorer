@@ -1,0 +1,12 @@
+{
+  "name": "Giraffe",
+  "folder": "giraffe",
+  "category": "Normal",
+  "breeds": ["Reticulated Giraffe", "Masai Giraffe", "Rothschild's Giraffe"],
+  "scientific_name": "Giraffa camelopardalis",
+  "description": "The giraffe (Giraffa camelopardalis) is the tallest land mammal, native to African savannas. It uses its long neck to reach high foliage, especially acacia leaves. Giraffes live in loose herds and have distinctive spotted coats.",
+  "habitat": "African savannas and woodlands.",
+  "diet": "Leaves, especially acacia.",
+  "lifespan": {"wild": "20-25 years", "protected": "25-30 years"},
+  "images": ["giraffe.jpg"]
+}

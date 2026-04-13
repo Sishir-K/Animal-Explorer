@@ -1,0 +1,12 @@
+{
+  "name": "Stegosaurus",
+  "folder": "stegosaurus",
+  "category": "Extinct",
+  "breeds": ["Stegosaurus stenops"],
+  "scientific_name": "Spinosaurus aegyptiacus",
+  "description": "Spinosaurus was a large theropod dinosaur known for its sail‑like spine and semi‑aquatic lifestyle. It lived in what is now North Africa during the Cretaceous period and likely fed on fish and other aquatic prey. It became extinct along with other non‑avian dinosaurs.",
+  "habitat": "Plains and forests.",
+  "diet": "Plants.",
+  "lifespan": {"wild": "50-70 years", "protected": "N/A"},
+  "images": ["stegosaurus.jpg"]
+}

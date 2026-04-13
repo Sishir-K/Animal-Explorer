@@ -1,0 +1,12 @@
+{
+  "name": "Penguin",
+  "folder": "penguin",
+  "category": "Normal",
+  "breeds": ["Emperor Penguin", "King Penguin", "Adelie Penguin", "Gentoo Penguin"],
+  "scientific_name": "Spheniscidae",
+  "description": "Penguins are flightless seabirds of the southern hemisphere adapted for swimming. They have dense feathers and feed primarily on fish and krill. Many species, like the Emperor Penguin, endure extreme cold.",
+  "habitat": "Antarctic and subantarctic coasts.",
+  "diet": "Fish, krill, squid.",
+  "lifespan": {"wild": "15-20 years", "protected": "20-25 years"},
+  "images": ["penguin.jpg"]
+}

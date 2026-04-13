@@ -1,0 +1,12 @@
+{
+  "name": "Swan",
+  "folder": "swan",
+  "category": "Normal",
+  "breeds": ["Mute Swan", "Trumpeter Swan", "Whooper Swan"],
+  "scientific_name": "Cygnus",
+  "description": "Swans are large waterfowl in the family Anatidae with long necks and graceful movements. They inhabit lakes and rivers and feed on aquatic vegetation. Swans are often symbolic in art and literature.",
+  "habitat": "Lakes, rivers, wetlands.",
+  "diet": "Aquatic plants, small insects, fish.",
+  "lifespan": {"wild": "20-30 years", "protected": "30-40 years"},
+  "images": ["swan.jpg"]
+}

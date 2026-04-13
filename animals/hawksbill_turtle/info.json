@@ -1,0 +1,12 @@
+{
+  "name": "Hawksbill Turtle",
+  "folder": "hawksbill_turtle",
+  "category": "Endangered",
+  "breeds": ["Hawksbill Turtle (single species)"],
+  "scientific_name": "Eretmochelys imbricata",
+  "description": "The hawksbill turtle (Eretmochelys imbricata) is a critically endangered sea turtle recognizable by its beautiful patterned shell. It inhabits tropical reefs and feeds mainly on sponges. Hawksbills are threatened by harvesting, habitat loss, and ocean pollution.",
+  "habitat": "Tropical coral reefs.",
+  "diet": "Sponges, small invertebrates.",
+  "lifespan": {"wild": "30-50 years", "protected": "50-60 years"},
+  "images": ["hawksbill_turtle.jpg"]
+}

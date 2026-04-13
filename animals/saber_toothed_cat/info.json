@@ -1,0 +1,13 @@
+
+{
+  "name": "Saber-Toothed Cat",
+  "folder": "saber_toothed_cat",
+  "category": "Extinct",
+  "breeds": ["Smilodon"],
+  "scientific_name": "Smilodon",
+  "description": "Saber‑toothed cats, such as Smilodon, were prehistoric predators with long, curved canine teeth. They lived in the Americas during the Pleistocene and hunted large herbivores. They disappeared around 10,000 years ago, likely from climate change and prey declines.",
+  "habitat": "Grasslands and forests.",
+  "diet": "Large herbivores.",
+  "lifespan": {"wild": "20-40 years", "protected": "N/A"},
+  "images": ["saber_toothed_cat.jpg"]
+}

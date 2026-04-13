@@ -1,0 +1,12 @@
+{
+  "name": "Whale",
+  "folder": "whale",
+  "category": "Normal",
+  "breeds": ["Blue Whale", "Humpback Whale", "Orca"],
+  "scientific_name": "Cetacea",
+  "description": "Whales are large marine mammals in the order Cetacea, ranging from baleen filter‑feeders to toothed predators. They live in oceans worldwide and engage in complex social behaviors. Many whale species migrate long distances.",
+  "habitat": "Oceans worldwide.",
+  "diet": "Krill, fish, squid, depending on species.",
+  "lifespan": {"wild": "30-90 years", "protected": "40-100 years"},
+  "images": ["whale.jpg"]
+}

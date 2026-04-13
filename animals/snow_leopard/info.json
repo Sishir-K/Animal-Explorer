@@ -1,0 +1,12 @@
+{
+  "name": "Snow Leopard",
+  "folder": "snow_leopard",
+  "category": "Endangered",
+  "breeds": ["Snow Leopard (single species)"],
+  "scientific_name": "Panthera uncia",
+  "description": "Snow leopards are elusive big cats that inhabit the rugged mountains of Central Asia. They are well adapted to cold environments with thick fur and long tails. Poaching and habitat fragmentation have reduced their populations.",
+  "habitat": "Mountain ranges of Central Asia.",
+  "diet": "Wild goats, sheep, smaller mammals.",
+  "lifespan": {"wild": "10-12 years", "protected": "15-20 years"},
+  "images": ["snow_leopard.jpg"]
+}

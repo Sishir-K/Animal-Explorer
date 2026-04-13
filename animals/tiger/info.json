@@ -1,0 +1,12 @@
+{
+  "name": "Tiger",
+  "folder": "tiger",
+  "category": "Endangered",
+  "breeds": ["Bengal Tiger", "Siberian Tiger", "Indochinese Tiger", "Malayan Tiger", "South China Tiger"],
+  "scientific_name": "Panthera tigris",
+  "description": "Tigers are the largest members of the cat family, known for their orange coats with black stripes. They are solitary predators found across Asia. Habitat loss and poaching have drastically reduced their numbers.",
+  "habitat": "Forests, grasslands, mangroves in Asia.",
+  "diet": "Deer, wild boar, small mammals.",
+  "lifespan": {"wild": "10-15 years", "protected": "20-25 years"},
+  "images": ["tiger.jpg"]
+}

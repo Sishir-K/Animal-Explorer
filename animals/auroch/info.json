@@ -1,0 +1,12 @@
+{
+    "name": "Auroch",
+    "folder": "auroch",
+    "category": "Extinct",
+    "breeds": ["Bos primigenius"],
+    "scientific_name": "Bos primigenius",
+    "description": "The aurochs (Bos primigenius) was a large wild cattle species that once ranged across Europe, Asia, and North Africa. It is the ancestor of modern domestic cattle. Aurochs became extinct in the early 17th century due to overhunting and habitat loss.",
+    "habitat": "Forests, grasslands, river valleys.",
+    "diet": "Grass, leaves, shrubs.",
+    "lifespan": {"wild": "20-25 years", "protected": "N/A"},
+    "images": ["auroch.jpg"]
+  }

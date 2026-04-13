@@ -1,0 +1,12 @@
+{
+  "name": "Rhino",
+  "folder": "rhino",
+  "category": "Endangered",
+  "breeds": ["Indian Rhino", "Javan Rhino", "Sumatran Rhino"],
+  "scientific_name": "Rhinocerotidae",
+  "description": "Rhinoceroses are large herbivorous mammals known for their thick skin and one or two horns. They inhabit parts of Africa and Asia and are critically endangered due to poaching. Conservation efforts aim to protect them from illegal hunting.",
+  "habitat": "Grasslands and forests in Africa and Asia.",
+  "diet": "Grass, leaves, shoots.",
+  "lifespan": {"wild": "35-50 years", "protected": "40-55 years"},
+  "images": ["rhino.jpg"]
+}

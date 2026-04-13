@@ -1,0 +1,12 @@
+{
+  "name": "Cat",
+  "folder": "cat",
+  "category": "Normal",
+  "breeds": ["Siamese", "Persian", "Maine Coon", "Bengal"],
+  "scientific_name": "Felis catus",
+  "description": "The domestic cat (Felis catus) is a small carnivorous mammal domesticated over 9,000 years ago. It is known for its agility, sharp senses, and independent behavior. Cats live in close association with humans and adapt to various indoor and outdoor environments.",
+  "habitat": "Domestic homes, urban areas.",
+  "diet": "Meat, fish, commercial cat food.",
+  "lifespan": {"wild": "12-18 years", "protected": "15-20 years"},
+  "images": ["cat.jpg"]
+}

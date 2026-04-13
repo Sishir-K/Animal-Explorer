@@ -1,0 +1,12 @@
+{
+  "name": "Meerkat",
+  "folder": "meerkat",
+  "category": "Normal",
+  "breeds": ["Suricate"],
+  "scientific_name": "Suricata suricatta",
+  "description": "Meerkats (Suricata suricatta) are small social mammals native to southern African deserts. They live in close‑knit groups and take turns acting as sentinels. Meerkats feed on insects and small vertebrates.",
+  "habitat": "Deserts and savannas of Africa.",
+  "diet": "Insects, small animals, plants.",
+  "lifespan": {"wild": "6-10 years", "protected": "12-15 years"},
+  "images": ["meerkat.jpg"]
+}

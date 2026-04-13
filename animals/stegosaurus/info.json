@@ -1,0 +1,12 @@
+{
+  "name": "Stegosaurus",
+  "folder": "stegosaurus",
+  "category": "Extinct",
+  "breeds": ["Stegosaurus stenops"],
+  "scientific_name": "Stegosaurus stenops",
+  "description": "Stegosaurus was a herbivorous dinosaur recognizable for its double row of back plates and spiked tail. It lived in the Late Jurassic period in North America. Its distinctive anatomy has made it one of the most famous dinosaurs.",
+  "habitat": "Plains and forests.",
+  "diet": "Plants.",
+  "lifespan": {"wild": "50-70 years", "protected": "N/A"},
+  "images": ["stegosaurus.jpg"]
+}

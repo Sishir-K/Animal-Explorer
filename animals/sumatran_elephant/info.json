@@ -1,0 +1,12 @@
+{
+  "name": "Sumatran Elephant",
+  "folder": "sumatran_elephant",
+  "category": "Endangered",
+  "breeds": ["Sumatran Elephant (single species)"],
+  "scientific_name": "Elephas maximus sumatranus",
+  "description": "The Sumatran elephant is a smaller subspecies of the Asian elephant, found only on the island of Sumatra. It lives in forest habitats and plays a key role in maintaining ecosystems. Rapid deforestation has made it critically endangered.",
+  "habitat": "Forests of Sumatra, Indonesia.",
+  "diet": "Grass, leaves, fruits, bark.",
+  "lifespan": {"wild": "50-60 years", "protected": "60-70 years"},
+  "images": ["sumatran_elephant.jpg"]
+}

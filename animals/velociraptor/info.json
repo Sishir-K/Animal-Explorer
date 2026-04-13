@@ -1,0 +1,12 @@
+{
+  "name": "Velociraptor",
+  "folder": "velociraptor",
+  "category": "Extinct",
+  "breeds": ["Velociraptor mongoliensis"],
+  "scientific_name": "Velociraptor mongoliensis",
+  "description": "Velociraptor was a small, agile theropod dinosaur with a sickle‑shaped claw on each foot. It lived in the Late Cretaceous in what is now Mongolia. Velociraptor is famous from popular culture but differed from its portrayal in movies.",
+  "habitat": "Desert and semi-arid regions.",
+  "diet": "Small animals, reptiles.",
+  "lifespan": {"wild": "10-15 years", "protected": "N/A"},
+  "images": ["velociraptor.jpg"]
+}

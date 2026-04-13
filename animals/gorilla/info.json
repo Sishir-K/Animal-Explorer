@@ -1,0 +1,12 @@
+{
+  "name": "Gorilla",
+  "folder": "gorilla",
+  "category": "Endangered",
+  "breeds": ["Eastern Gorilla", "Western Gorilla", "Mountain Gorilla", "Lowland Gorilla"],
+  "scientific_name": "Gorilla",
+  "description": "Gorillas are the largest living primates, divided into eastern and western species, including the mountain gorilla. They are primarily herbivorous and live in complex social groups. Poaching and habitat loss make several gorilla subspecies endangered.",
+  "habitat": "Tropical forests of central Africa.",
+  "diet": "Leaves, stems, fruit.",
+  "lifespan": {"wild": "35-40 years", "protected": "40-50 years"},
+  "images": ["gorilla.jpg"]
+}

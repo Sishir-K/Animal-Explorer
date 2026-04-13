@@ -1,0 +1,12 @@
+{
+  "name": "Sheep",
+  "folder": "sheep",
+  "category": "Normal",
+  "breeds": ["Merino", "Suffolk", "Dorper", "Hampshire"],
+  "scientific_name": "Ovis aries",
+  "description": "Sheep (Ovis aries) are domesticated ruminants raised for wool, meat, and milk. They are social animals that graze in flocks. Sheep have been kept by humans for thousands of years.",
+  "habitat": "Grasslands, farms.",
+  "diet": "Grass, hay, grains.",
+  "lifespan": {"wild": "10-12 years", "protected": "12-15 years"},
+  "images": ["sheep.jpg"]
+}

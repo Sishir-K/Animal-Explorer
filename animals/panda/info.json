@@ -1,0 +1,12 @@
+{
+  "name": "Panda",
+  "folder": "panda",
+  "category": "Endangered",
+  "breeds": ["Giant Panda"],
+  "scientific_name": "Ailuropoda melanoleuca",
+  "description": "The giant panda is a bear species native to China, easily recognized by its black-and-white fur. It feeds primarily on bamboo despite being classified as a carnivore. Habitat loss and low reproduction rates have made it a symbol of wildlife conservation.",
+  "habitat": "Mountain bamboo forests in China.",
+  "diet": "Bamboo, occasionally small animals.",
+  "lifespan": {"wild": "20 years", "protected": "25-30 years"},
+  "images": ["panda.jpg"]
+}

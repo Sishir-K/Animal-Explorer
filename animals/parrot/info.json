@@ -1,0 +1,12 @@
+{
+    "name": "Parrot",
+    "folder": "parrot",
+    "category": "Normal",
+    "breeds": ["Macaw", "Cockatoo", "African Grey", "Budgerigar"],
+    "scientific_name": "Psittaciformes",
+    "description": "Parrots are colorful birds with strong curved beaks and high intelligence.",
+    "habitat": "Tropical forests and woodlands.",
+    "diet": "Fruits, nuts, seeds.",
+    "lifespan": {"wild": "50-80 years", "protected": "60-90 years"},
+    "images": ["parrot.jpg"]
+  }

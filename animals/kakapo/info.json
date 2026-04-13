@@ -1,0 +1,12 @@
+{
+  "name": "Kakapo",
+  "folder": "kakapo",
+  "category": "Endangered",
+  "breeds": ["Kakapo (single species)"],
+  "scientific_name": "Strigops habroptilus",
+  "description": "The kakapo (Strigops habroptilus) is a large, nocturnal, flightless parrot endemic to New Zealand. Once widespread, it became critically endangered due to introduced predators. Intensive conservation and breeding programs have become its lifeline.",
+  "habitat": "Forests of New Zealand.",
+  "diet": "Seeds, fruits, leaves.",
+  "lifespan": {"wild": "60-90 years", "protected": "70-95 years"},
+  "images": ["kakapo.jpg"]
+}

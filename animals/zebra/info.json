@@ -1,0 +1,12 @@
+{
+  "name": "Zebra",
+  "folder": "zebra",
+  "category": "Normal",
+  "breeds": ["Plains Zebra", "Mountain Zebra", "Grevy's Zebra"],
+  "scientific_name": "Equus quagga",
+  "description": "Zebras are African equids known for distinctive black‑and‑white stripes. They live in grasslands and savannas and graze on grasses. Zebra herds have complex social structures and migration patterns.",
+  "habitat": "Savannas, grasslands.",
+  "diet": "Grass, shrubs.",
+  "lifespan": {"wild": "20-25 years", "protected": "25-30 years"},
+  "images": ["zebra.jpg"]
+}

@@ -1,0 +1,12 @@
+{
+"name": "Bear",
+"folder": "bear",
+"category": "Normal",
+"breeds": ["Brown Bear", "Polar Bear", "Black Bear", "Grizzly Bear"],
+"scientific_name": "Ursidae",
+"description": "Bears are large mammals of the family Ursidae found across the Northern Hemisphere and parts of the Southern Hemisphere. They are adapted to diverse habitats and have omnivorous diets. Bears are known for their intelligence, strength, and in some species, hibernation behavior.",
+"habitat": "Forests, mountains, tundras.",
+"diet": "Omnivorous: berries, fish, meat.",
+"lifespan": {"wild": "20-30 years", "protected": "30-40 years"},
+"images": ["bear.jpg"]
+}

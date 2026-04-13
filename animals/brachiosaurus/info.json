@@ -1,0 +1,12 @@
+{
+  "name": "Brachiosaurus",
+  "folder": "brachiosaurus",
+  "category": "Extinct",
+  "breeds": ["Brachiosaurus altithorax"],
+  "scientific_name": "Brachiosaurus altithorax",
+  "description": "Brachiosaurus was a genus of large sauropod dinosaur that lived during the Late Jurassic period. It had long forelimbs, a long neck, and a relatively short tail, allowing it to reach high vegetation. It is known from fossils in North America.",
+  "habitat": "Forests and floodplains.",
+  "diet": "Plants, leaves from tall trees.",
+  "lifespan": {"wild": "70-100 years", "protected": "N/A"},
+  "images": ["brachiosaurus.jpg","brachiosaurusBones.jpg"]
+}

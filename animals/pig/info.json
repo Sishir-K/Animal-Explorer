@@ -1,0 +1,12 @@
+{
+  "name": "Pig",
+  "folder": "pig",
+  "category": "Normal",
+  "breeds": ["Yorkshire", "Berkshire", "Hampshire", "Duroc"],
+  "scientific_name": "Sus scrofa domesticus",
+  "description": "Domestic pigs (Sus scrofa domesticus) are omnivorous mammals raised for meat and other products. They have highly adaptable diets and social behavior. Pigs are found worldwide in farm and free‑range environments.",
+  "habitat": "Farms, rural areas.",
+  "diet": "Grains, vegetables, small animals.",
+  "lifespan": {"wild": "15-20 years", "protected": "20-25 years"},
+  "images": ["pig.jpg"]
+}

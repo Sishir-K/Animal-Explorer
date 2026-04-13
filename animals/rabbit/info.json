@@ -1,0 +1,12 @@
+{
+  "name": "Rabbit",
+  "folder": "rabbit",
+  "category": "Normal",
+  "breeds": ["European Rabbit", "Netherland Dwarf", "Lionhead", "Flemish Giant"],
+  "scientific_name": "Oryctolagus cuniculus",
+  "description": "Rabbits are small mammals in the family Leporidae, known for long ears and hop‑like locomotion. They breed rapidly and are common in grasslands and forests. Rabbits feed primarily on grasses and leafy plants.",
+  "habitat": "Grasslands, forests, domestic areas.",
+  "diet": "Grass, vegetables, fruits.",
+  "lifespan": {"wild": "8-12 years", "protected": "10-15 years"},
+  "images": ["rabbit.jpg"]
+}

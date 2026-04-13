@@ -1,0 +1,12 @@
+{
+  "name": "Shark",
+  "folder": "shark",
+  "category": "Normal",
+  "breeds": ["Great White Shark", "Hammerhead Shark", "Tiger Shark"],
+  "scientific_name": "Selachimorpha",
+  "description": "Sharks are cartilaginous fish in the class Chondrichthyes, inhabiting oceans worldwide. They range from apex predators like the great white to filter‑feeders like the whale shark. Sharks have survived for millions of years.",
+  "habitat": "Oceans worldwide.",
+  "diet": "Fish, marine mammals, plankton (species-dependent).",
+  "lifespan": {"wild": "20-30 years", "protected": "30-50 years"},
+  "images": ["shark.jpg"]
+}

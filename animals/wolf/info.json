@@ -1,0 +1,12 @@
+{
+  "name": "Wolf",
+  "folder": "wolf",
+  "category": "Normal",
+  "breeds": ["Gray Wolf", "Arctic Wolf", "Red Wolf"],
+  "scientific_name": "Canis lupus",
+  "description": "Wolves (Canis lupus) are social carnivores that live and hunt in packs. They are key predators in many ecosystems. Wolves are highly adaptable and have wide historical ranges across continents.",
+  "habitat": "Forests, tundras, grasslands.",
+  "diet": "Deer, elk, small mammals.",
+  "lifespan": {"wild": "6-8 years", "protected": "12-15 years"},
+  "images": ["wolf.jpg"]
+}

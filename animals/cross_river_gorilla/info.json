@@ -1,0 +1,12 @@
+{
+  "name": "Cross River Gorilla",
+  "folder": "cross_river_gorilla",
+  "category": "Endangered",
+  "breeds": ["Cross River Gorilla (single subspecies)"],
+  "scientific_name": "Gorilla gorilla diehli",
+  "description": "The Cross River gorilla (Gorilla gorilla diehli) is a critically endangered gorilla subspecies found on the Nigeria‑Cameroon border. It lives in dense forests and has fewer than a few hundred individuals. Conservation focuses on habitat protection and anti‑poaching.",
+  "habitat": "Mountain and lowland forests.",
+  "diet": "Fruits, leaves, stems.",
+  "lifespan": {"wild": "35-40 years", "protected": "40-50 years"},
+  "images": ["cross_river_gorilla.jpg"]
+}

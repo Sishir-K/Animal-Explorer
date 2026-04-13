@@ -1,0 +1,12 @@
+{
+  "name": "Fox",
+  "folder": "fox",
+  "category": "Normal",
+  "breeds": ["Red Fox", "Arctic Fox", "Fennec Fox"],
+  "scientific_name": "Vulpes",
+  "description": "Foxes are small to medium omnivorous mammals in the Canidae family. They are widely distributed across continents and are known for their adaptability, cunning behavior, and bushy tails. Fox diets vary by location and species but often include small rodents and insects.",
+  "habitat": "Forests, grasslands, urban areas.",
+  "diet": "Small mammals, birds, fruits.",
+  "lifespan": {"wild": "3-6 years", "protected": "10-14 years"},
+  "images": ["fox.jpg"]
+}

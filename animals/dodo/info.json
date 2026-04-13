@@ -1,0 +1,12 @@
+{
+  "name": "Dodo",
+  "folder": "dodo",
+  "category": "Extinct",
+  "breeds": ["Raphus cucullatus"],
+  "scientific_name": "Raphus cucullatus",
+  "description": "The dodo (Raphus cucullatus) was a flightless bird endemic to Mauritius in the Indian Ocean. It became extinct in the late 17th century after human arrival, introduced animals, and habitat destruction. The dodo is a symbol of extinction.",
+  "habitat": "Tropical forests on islands.",
+  "diet": "Fruits, seeds, roots.",
+  "lifespan": {"wild": "10-20 years", "protected": "N/A"},
+  "images": ["dodo.jpg"]
+}

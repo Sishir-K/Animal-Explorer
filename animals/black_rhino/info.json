@@ -1,0 +1,12 @@
+{
+  "name": "Black Rhino",
+  "folder": "black_rhino",
+  "category": "Endangered",
+  "breeds": ["Eastern Black Rhino", "South-western Black Rhino"],
+  "scientific_name": "Diceros bicornis",
+  "description": "The black rhinoceros (Diceros bicornis) is a critically endangered African rhino distinguished by its hooked upper lip for browsing. Black rhinos once ranged widely across Africa but were decimated by poaching for their horns. Conservation has stabilized some populations.",
+  "habitat": "Savannas and woodlands of Africa.",
+  "diet": "Leaves, shoots, fruits.",
+  "lifespan": {"wild": "35-50 years", "protected": "40-55 years"},
+  "images": ["black_rhino.jpg"]
+}

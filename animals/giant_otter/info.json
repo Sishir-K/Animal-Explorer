@@ -1,0 +1,12 @@
+{
+  "name": "Giant Otter",
+  "folder": "giant_otter",
+  "category": "Endangered",
+  "breeds": ["Giant Otter (single species)"],
+  "scientific_name": "Pteronura brasiliensis",
+  "description": "The giant otter (Pteronura brasiliensis) is a large social otter native to South American rivers and lakes. It feeds on fish and lives in extended family groups. Habitat destruction and hunting for pelts severely reduced its populations.",
+  "habitat": "Rivers, lakes, wetlands in South America.",
+  "diet": "Fish, crustaceans.",
+  "lifespan": {"wild": "10-15 years", "protected": "15-20 years"},
+  "images": ["giant_otter.jpg"]
+}

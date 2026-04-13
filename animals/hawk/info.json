@@ -1,0 +1,13 @@
+
+{
+  "name": "Hawk",
+  "folder": "hawk",
+  "category": "Normal",
+  "breeds": ["Red-tailed Hawk", "Cooper's Hawk", "Harris's Hawk"],
+  "scientific_name": "Accipitridae",
+  "description": "Hawks are birds of prey in the family Accipitridae, known for sharp talons and keen eyesight. They hunt small mammals, birds, and reptiles. Hawks occupy a range of habitats from woodlands to open plains.",
+  "habitat": "Forests, mountains, open plains.",
+  "diet": "Small mammals, birds, reptiles.",
+  "lifespan": {"wild": "10-20 years", "protected": "20-25 years"},
+  "images": ["hawk.jpg","hawks.jpg"]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Pterodactyl",
+  "folder": "pterodactyl",
+  "category": "Extinct",
+  "breeds": ["Pterodactylus"],
+  "scientific_name": "Pterodactylus",
+  "description": "Pterodactyls are pterosaurs, flying reptiles that lived during the age of dinosaurs. They had wings formed by a membrane of skin and muscle stretching from the body to an elongated fourth finger. They became extinct at the end of the Cretaceous period.",
+  "habitat": "Coastal areas and cliffs.",
+  "diet": "Fish, small animals.",
+  "lifespan": {"wild": "20-30 years", "protected": "N/A"},
+  "images": ["pterodactyl.jpg"]
+}

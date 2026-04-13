@@ -1,0 +1,12 @@
+{
+  "name": "Hedgehog",
+  "folder": "hedgehog",
+  "category": "Normal",
+  "breeds": ["European Hedgehog", "African Pygmy Hedgehog"],
+  "scientific_name": "Erinaceidae",
+  "description": "Hedgehogs are small mammals covered in spines, living in Europe, Asia, and Africa. They roll into a ball as a defense mechanism against predators. Hedgehogs are insectivores but also eat fruits and roots.",
+  "habitat": "Forests, grasslands, gardens.",
+  "diet": "Insects, worms, fruits.",
+  "lifespan": {"wild": "3-7 years", "protected": "8-12 years"},
+  "images": ["hedgehog.jpg"]
+}

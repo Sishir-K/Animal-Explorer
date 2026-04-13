@@ -1,0 +1,12 @@
+{
+  "name": "Thylacine",
+  "folder": "thylacine",
+  "category": "Extinct",
+  "breeds": ["Thylacinus cynocephalus"],
+  "scientific_name": "Thylacinus cynocephalus",
+  "description": "The thylacine (Thylacinus cynocephalus), or Tasmanian tiger, was a carnivorous marsupial native to Australia, Tasmania, and New Guinea. It had stripes on its back and resembled a dog with a stiff tail. It became extinct in the 20th century due to hunting, disease, and habitat loss.",
+  "habitat": "Forests and grasslands.",
+  "diet": "Small mammals, birds.",
+  "lifespan": {"wild": "5-7 years", "protected": "10-12 years"},
+  "images": ["thylacine.jpg"]
+}

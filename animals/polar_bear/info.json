@@ -1,0 +1,12 @@
+{
+  "name": "Polar Bear",
+  "folder": "polar_bear",
+  "category": "Endangered",
+  "breeds": ["Polar Bear (single species)"],
+  "scientific_name": "Ursus maritimus",
+  "description": "Polar bears are large carnivorous mammals adapted to life in the Arctic. They rely heavily on sea ice to hunt seals, their primary food source. Climate change and melting ice threaten their survival.",
+  "habitat": "Arctic regions, sea ice.",
+  "diet": "Seals, fish, small mammals.",
+  "lifespan": {"wild": "20-25 years", "protected": "25-30 years"},
+  "images": ["polar_bear.jpg"]
+}

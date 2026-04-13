@@ -1,0 +1,12 @@
+{
+  "name": "Vaquita",
+  "folder": "vaquita",
+  "category": "Endangered",
+  "breeds": ["Vaquita (single species)"],
+  "scientific_name": "Phocoena sinus",
+  "description": "The vaquita is the smallest and most endangered marine mammal, found only in the northern Gulf of California. It is a shy porpoise species rarely seen in the wild. Illegal fishing nets are the primary cause of its decline.",
+  "habitat": "Northern Gulf of California.",
+  "diet": "Small fish, squid, crustaceans.",
+  "lifespan": {"wild": "20 years", "protected": "25 years"},
+  "images": ["vaquita.jpg"]
+}

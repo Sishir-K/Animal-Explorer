@@ -1,0 +1,12 @@
+{
+  "name": "Saola",
+  "folder": "saola",
+  "category": "Endangered",
+  "breeds": ["Saola (single species)"],
+  "scientific_name": "Pseudoryx nghetinhensis",
+  "description": "The saola is a rare, antelope-like mammal found in the Annamite Mountains of Laos and Vietnam. It was only discovered in 1992 and is one of the world's rarest large mammals. Habitat loss and hunting threaten its survival.",
+  "habitat": "Mountain forests in Southeast Asia.",
+  "diet": "Leaves, grasses.",
+  "lifespan": {"wild": "10-12 years", "protected": "12-15 years"},
+  "images": ["saola.jpg"]
+}

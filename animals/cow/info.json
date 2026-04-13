@@ -1,0 +1,12 @@
+{
+  "name": "Cow",
+  "folder": "cow",
+  "category": "Normal",
+  "breeds": ["Holstein", "Jersey", "Angus", "Hereford"],
+  "scientific_name": "Bos taurus",
+  "description": "Cows are domesticated ungulates used for milk, meat, and leather. They are social herbivores with a strong herd instinct.",
+  "habitat": "Farmlands, grasslands.",
+  "diet": "Grass, hay, grains.",
+  "lifespan": {"wild": "18-22 years", "protected": "20-25 years"},
+  "images": ["cow.jpg"]
+}

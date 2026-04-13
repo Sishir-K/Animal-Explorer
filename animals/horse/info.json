@@ -1,0 +1,12 @@
+{
+  "name": "Horse",
+  "folder": "horse",
+  "category": "Normal",
+  "breeds": ["Arabian", "Thoroughbred", "Clydesdale", "Mustang"],
+  "scientific_name": "Equus ferus caballus",
+  "description": "The horse (Equus ferus caballus) is a large domesticated herbivore used for transport, work, and sport. Horses have been integral to human civilization for thousands of years. They are grazing animals with strong social bonds.",
+  "habitat": "Grasslands, farms, domestic stables.",
+  "diet": "Grass, hay, grains.",
+  "lifespan": {"wild": "25-30 years", "protected": "30-40 years"},
+  "images": ["horse.jpg"]
+}

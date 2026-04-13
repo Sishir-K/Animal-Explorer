@@ -1,0 +1,12 @@
+{
+  "name": "Tapir",
+  "folder": "tapir",
+  "category": "Endangered",
+  "breeds": ["Baird's Tapir", "Malayan Tapir", "Brazilian Tapir", "Mountain Tapir"],
+  "scientific_name": "Tapirus spp.",
+  "description": "Tapirs are large herbivorous mammals with a short trunk-like snout, native to Central and South America and Southeast Asia. They are important seed dispersers in forest ecosystems. Habitat destruction and hunting have led to population decline.",
+  "habitat": "Tropical forests and grasslands.",
+  "diet": "Leaves, fruits, aquatic plants.",
+  "lifespan": {"wild": "25-30 years", "protected": "30-35 years"},
+  "images": ["tapir.jpg"]
+}

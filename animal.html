@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Animal Explorer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+    <body>
+        <header class="navbar">
+            <div>
+                <a href="index.html">
+                    <h2 style="font-size: 38px">Animal Explorer</h2>
+                </a>
+            </div>
+
+            <div class="right-section">
+                <div class="search-bar">
+                    <span class="icon">
+                        <img src="magGlass.png" style="height: 30px;border-radius: 50%;margin-top: 4px;">
+                    </span>
+
+                    <input type="search" id="search" placeholder="Search animals...">
+
+                    <select id="categoryFilter">
+                        <option value="all">All</option>
+                        <option value="normal">Normal</option>
+                        <option value="endangered">Endangered</option>
+                        <option value="extinct">Extinct</option>
+                    </select>
+                </div>
+                <button id="themeToggle" class="theme-btn">
+                    <span class="icon">🌙</span>
+                </button>
+                <div class="auth-section">
+                    <button id="loginBtn">Sign in</button>
+                </div>
+            </div>
+        </header>
+        <div class="animal-page">
+            <div class="animal-gallery">
+                <img id="mainImage" class="main-img">
+                <div class="thumbnail-wrapper">
+                    <button id="prevBtn" class="nav-btn">&lt;</button>
+                    <div id="thumbnails" class="thumbnails"></div>
+                    <button id="nextBtn" class="nav-btn">&gt;</button>
+                </div>
+            </div>
+
+            <div class="animal-info">
+                <h1 id="animalName" style="padding:0px ;"></h1>
+                <p id="animalScientific" style="padding-top:0px ;"></p>
+                <p id="animalViews"></p>
+                <p id="animalStatus"></p>
+                <p id="animalDesc"></p>
+                <p id="animalHabitat"></p>
+                <p id="animalDiet"></p>
+                <p id="animalLifespan"></p>
+                <p id="animalBreeds"></p>
+            </div>
+
+            
+        </div>
+        <div><a href="index.html" id="back">⬅ Back</a></div>
+        <div id="authModal" class="modal">
+        <div class="modal-content">
+
+                <span id="closeModal">&times;</span>
+
+                <h2 id="formTitle">Login</h2>
+
+                <input type="text" id="username" placeholder="Username">
+                <input type="password" id="password" placeholder="Password">
+
+                <button id="submitBtn">Login</button>
+
+                <p id="toggleText">
+                    Don't have an account?
+                    <span id="toggleForm">Register</span>
+                </p>
+
+            </div>
+        </div>
+        <div id="imageModal" class="image-modal">
+            <span id="closeImage">&times;</span>
+            <img id="modalImg">
+        </div>
+        <script src="auth.js"></script>
+        <script src="animalpage.js"></script>
+        <script src="theme.js"></script>
+    </body>
+
+</html>

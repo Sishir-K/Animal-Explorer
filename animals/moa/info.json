@@ -1,0 +1,12 @@
+{
+  "name": "Moa",
+  "folder": "moa",
+  "category": "Extinct",
+  "breeds": ["Dinornis species"],
+  "scientific_name": "Dinornithiformes",
+  "description": "Moas were a group of large flightless birds native to New Zealand, with some species reaching over 3 meters in height. They were herbivores that browsed forests and grasslands. Moas became extinct by the late 14th century due to overhunting by the Maori.",
+  "habitat": "Forests and grasslands.",
+  "diet": "Plants, leaves.",
+  "lifespan": {"wild": "20-30 years", "protected": "N/A"},
+  "images": ["moa.jpg"]
+}

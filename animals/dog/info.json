@@ -1,0 +1,12 @@
+{
+  "name": "Dog",
+  "folder": "dog",
+  "category": "Normal",
+  "breeds": ["Labrador Retriever", "German Shepherd", "Bulldog", "Beagle"],
+  "scientific_name": "Canis lupus familiaris",
+  "description": "The domestic dog (Canis lupus familiaris) is a domesticated form of the gray wolf. Dogs have been selectively bred for thousands of years for companionship, work, and hunting. They are known for their loyalty, social behavior, and wide variety of breeds.",
+  "habitat": "Domestic homes, urban areas.",
+  "diet": "Meat, commercial dog food.",
+  "lifespan": {"wild": "10-13 years", "protected": "12-18 years"},
+  "images": ["dog.jpg","dog2.jpg","dog3.jpg","dog4.jpg","dog5.jpg","dog6.jpg","dog7.jpg","dog8.jpg","dog9.jpg","dog10.jpg"]
+}

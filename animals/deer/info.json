@@ -1,0 +1,12 @@
+{
+  "name": "Deer",
+  "folder": "deer",
+  "category": "Normal",
+  "breeds": ["White-tailed Deer", "Red Deer", "Roe Deer", "Mule Deer"],
+  "scientific_name": "Cervidae",
+  "description": "Deer are hoofed ruminant mammals belonging to the family Cervidae, with males typically growing antlers annually. They inhabit forests, grasslands, and wetlands worldwide. Most deer are herbivores and are important prey in many ecosystems.",
+  "habitat": "Forests, grasslands.",
+  "diet": "Grass, leaves, twigs.",
+  "lifespan": {"wild": "10-20 years", "protected": "15-25 years"},
+  "images": ["deer.jpg","deer2.jpg","deer3.jpg"]
+}

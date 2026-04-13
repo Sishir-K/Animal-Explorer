@@ -1,0 +1,12 @@
+{
+  "name": "Pyrenean Ibex",
+  "folder": "pyrenean_ibex",
+  "category": "Extinct",
+  "breeds": ["Capra pyrenaica pyrenaica"],
+  "scientific_name": "Capra pyrenaica pyrenaica",
+  "description": "The Pyrenean ibex (Capra pyrenaica pyrenaica) was a subspecies of wild goat native to the Pyrenees. It became extinct in 2000 due to overhunting and habitat competition. It was one of the first extinct animals involved in an unsuccessful cloning attempt.",
+  "habitat": "Mountain regions.",
+  "diet": "Grass, shrubs.",
+  "lifespan": {"wild": "15-20 years", "protected": "N/A"},
+  "images": ["pyrenean_ibex.jpg","Pyrenean_ibex1.jpg"]
+}

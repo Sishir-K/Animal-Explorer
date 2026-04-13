@@ -1,0 +1,12 @@
+{
+  "name": "Duck",
+  "folder": "duck",
+  "category": "Normal",
+  "breeds": ["Mallard", "Pekin", "Muscovy"],
+  "scientific_name": "Anatidae",
+  "description": "Ducks are waterfowl of the family Anatidae, generally smaller than swans and geese. They live in freshwater and coastal wetlands and are omnivorous, eating aquatic plants, insects, and small fish. Many duck species migrate seasonally.",
+  "habitat": "Lakes, rivers, wetlands.",
+  "diet": "Aquatic plants, insects, small fish.",
+  "lifespan": {"wild": "5-10 years", "protected": "10-15 years"},
+  "images": ["duck.jpg"]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Megalodon",
+  "folder": "megalodon",
+  "category": "Extinct",
+  "breeds": ["Otodus megalodon"],
+  "scientific_name": "Mammuthus primigenius",
+  "description": "Mammoths were large elephant‑like mammals with long curved tusks, roaming cold steppe environments during the Pleistocene. The woolly mammoth (Mammuthus primigenius) persisted until about 4,000 years ago. They disappeared due to climate shifts and overhunting by humans.",
+  "habitat": "Oceans worldwide.",
+  "diet": "Whales, large fish.",
+  "lifespan": {"wild": "30-50 years", "protected": "N/A"},
+  "images": ["megalodon.jpg"]
+}

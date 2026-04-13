@@ -1,0 +1,12 @@
+{
+  "name": "Squirrel",
+  "folder": "squirrel",
+  "category": "Normal",
+  "breeds": ["Eastern Gray Squirrel", "Red Squirrel", "Fox Squirrel"],
+  "scientific_name": "Sciuridae",
+  "description": "Squirrels are small rodents with bushy tails found in forests and urban areas. They are agile climbers and often store nuts for winter. Squirrels are important seed dispersers in many ecosystems.",
+  "habitat": "Forests, urban areas, parks.",
+  "diet": "Nuts, seeds, fruits.",
+  "lifespan": {"wild": "6-12 years", "protected": "12-20 years"},
+  "images": ["squirrel.jpg"]
+}

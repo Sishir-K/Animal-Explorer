@@ -1,0 +1,12 @@
+{
+  "name": "Orangutan",
+  "folder": "orangutan",
+  "category": "Endangered",
+  "breeds": ["Bornean Orangutan", "Sumatran Orangutan", "Tapanuli Orangutan"],
+  "scientific_name": "Pongo spp.",
+  "description": "Orangutans are large arboreal apes native to the rainforests of Borneo and Sumatra. They are highly intelligent and known for using tools and complex problem-solving skills. Orangutans spend most of their lives in trees and are critically endangered due to deforestation and habitat loss.",
+  "habitat": "Rainforests of Borneo and Sumatra.",
+  "diet": "Fruits, leaves, bark, insects.",
+  "lifespan": {"wild": "30-40 years", "protected": "50-60 years"},
+  "images": ["orangutan.jpg"]
+}

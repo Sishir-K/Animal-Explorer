@@ -1,0 +1,12 @@
+{
+  "name": "White Tiger",
+  "folder": "white_tiger",
+  "category": "Endangered",
+  "breeds": ["White Bengal Tiger"],
+  "scientific_name": "Panthera tigris tigris (leucistic variant)",
+  "description": "White tigers are a rare genetic variant of Bengal tigers characterized by white fur and black stripes. They are not a separate species but occur due to a recessive gene. Most white tigers exist in captivity, with very few historically in the wild.",
+  "habitat": "Forests of India (captivity common).",
+  "diet": "Deer, wild boar, small mammals.",
+  "lifespan": {"wild": "10-15 years", "protected": "20-25 years"},
+  "images": ["white_tiger.jpg"]
+}

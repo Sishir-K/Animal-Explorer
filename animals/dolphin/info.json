@@ -1,0 +1,12 @@
+{
+  "name": "Dolphin",
+  "folder": "dolphin",
+  "category": "Normal",
+  "breeds": ["Bottlenose Dolphin", "Common Dolphin", "Spinner Dolphin"],
+  "scientific_name": "Delphinidae",
+  "description": "Dolphins are highly intelligent marine mammals of the family Delphinidae. They are known for their sociable behavior, complex communication, and fast swimming. Dolphins inhabit oceans and some river systems and feed primarily on fish and squid.",
+  "habitat": "Oceans and some rivers.",
+  "diet": "Fish, squid, crustaceans.",
+  "lifespan": {"wild": "20-60 years", "protected": "30-60 years"},
+  "images": ["dolphin.jpg"]
+}

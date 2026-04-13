@@ -1,0 +1,12 @@
+{
+  "name": "Cheetah",
+  "folder": "cheetah",
+  "category": "Endangered",
+  "breeds": ["Asiatic Cheetah", "African Cheetah"],
+  "scientific_name": "Acinonyx jubatus",
+  "description": "The cheetah (Acinonyx jubatus) is the fastest land animal, capable of speeds over 100 km/h in short bursts. Native to Africa and parts of Iran, it hunts antelope and smaller mammals. Habitat loss and genetic bottlenecks have made it vulnerable.",
+  "habitat": "Grasslands and savannas.",
+  "diet": "Antelopes, small mammals.",
+  "lifespan": {"wild": "8-12 years", "protected": "12-15 years"},
+  "images": ["cheetah.jpg"]
+}

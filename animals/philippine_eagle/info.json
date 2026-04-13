@@ -1,0 +1,12 @@
+{
+  "name": "Philippine Eagle",
+  "folder": "philippine_eagle",
+  "category": "Endangered",
+  "breeds": ["Philippine Eagle (single species)"],
+  "scientific_name": "Pithecophaga jefferyi",
+  "description": "The Philippine eagle is one of the largest and most powerful eagles in the world. It is endemic to the Philippines and depends on dense forest habitats. Deforestation and hunting have made it critically endangered.",
+  "habitat": "Rainforests of the Philippines.",
+  "diet": "Monkeys, flying lemurs, birds.",
+  "lifespan": {"wild": "30-60 years", "protected": "50-70 years"},
+  "images": ["philippine_eagle.jpg"]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Eagle",
+  "folder": "eagle",
+  "category": "Normal",
+  "breeds": ["Golden Eagle", "Bald Eagle", "Harpy Eagle"],
+  "scientific_name": "Accipitridae",
+  "description": "Eagles are large birds of prey in the family Accipitridae, with powerful beaks and exceptional vision. They hunt live prey and scavenge carrion, inhabiting a range of habitats including mountains, cliffs, and forests. Several species are cultural symbols of strength and freedom.",
+  "habitat": "Mountains, forests, cliffs.",
+  "diet": "Fish, small mammals, carrion.",
+  "lifespan": {"wild": "20-30 years", "protected": "30-40 years"},
+  "images": ["eagle.jpg"]
+}

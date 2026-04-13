@@ -1,0 +1,12 @@
+{
+  "name": "Blue Whale",
+  "folder": "blue_whale",
+  "category": "Endangered",
+  "breeds": ["Antarctic Blue Whale", "Northern Blue Whale"],
+  "scientific_name": "Balaenoptera musculus",
+  "description": "The blue whale (Balaenoptera musculus) is the largest animal ever known, reaching lengths over 30 meters. It is a baleen whale that feeds mainly on krill. Blue whales were heavily hunted in the 20th century, but protected populations are slowly recovering.",
+  "habitat": "Oceans worldwide.",
+  "diet": "Krill.",
+  "lifespan": {"wild": "70-90 years", "protected": "80-100 years"},
+  "images": ["blue_whale.jpg"]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "Platypus",
+    "folder": "platypus",
+    "category": "Normal",
+    "breeds": ["Ornithorhynchus anatinus"],
+    "scientific_name": "Ornithorhynchus anatinus",
+    "description": "The platypus is a semiaquatic egg-laying mammal with a duck-like bill, native to Australia.",
+    "habitat": "Freshwater rivers and lakes in Australia.",
+    "diet": "Invertebrates, larvae, small fish.",
+    "lifespan": {"wild": "10-17 years", "protected": "17-20 years"},
+    "images": ["platypus.jpg"]
+  }

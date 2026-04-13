@@ -1,0 +1,12 @@
+{
+  "name": "Amur Leopard",
+  "folder": "amur_leopard",
+  "category": "Endangered",
+  "breeds": ["Amur Leopard (single subspecies)"],
+  "scientific_name": "Panthera pardus orientalis",
+  "description": "The Amur leopard (Panthera pardus orientalis) is a critically endangered big cat native to Russia and northeastern China. It has a thick spotted coat for camouflage in cold forests. Fewer than a few dozen remain in the wild due to poaching and habitat loss.",
+  "habitat": "Temperate forests of Russia and China.",
+  "diet": "Deer, wild boar, small mammals.",
+  "lifespan": {"wild": "10-15 years", "protected": "15-20 years"},
+  "images": ["amur_leopard.jpg"]
+}

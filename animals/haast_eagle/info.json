@@ -1,0 +1,12 @@
+{
+  "name": "Haast Eagle",
+  "folder": "haast_eagle",
+  "category": "Extinct",
+  "breeds": ["Hieraaetus moorei"],
+  "scientific_name": "Hieraaetus moorei",
+  "description": "The Haast eagle (Hieraaetus moorei) was the largest eagle known, native to New Zealand’s South Island. It preyed on large flightless birds like moa. It became extinct around the 15th century following the disappearance of its prey due to human hunting.",
+  "habitat": "Forests and open landscapes.",
+  "diet": "Large birds (moa).",
+  "lifespan": {"wild": "20-30 years", "protected": "N/A"},
+  "images": ["haast_eagle.jpg"]
+}

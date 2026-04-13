@@ -1,0 +1,13 @@
+{
+  "name": "Albatross",
+  "folder": "albatross",
+  "category": "Endangered",
+  "breeds": ["Wandering Albatross", "Black-browed Albatross", "Royal Albatross"],
+  "scientific_name": "Diomedeidae",
+  "description": "Albatrosses are large seabirds of the family Diomedeidae known for the longest wingspans of any birds, enabling dynamic soaring over oceans. They feed on squid, fish, and krill and can travel vast distances. Many species face threats from longline fishing and pollution.",
+  "habitat": "Southern Ocean and North Pacific islands.",
+  "diet": "Fish, squid, krill.",
+  "lifespan": {"wild": "50 years", "protected": "60 years"},
+  "images": ["albatross.jpg"]
+}
+  

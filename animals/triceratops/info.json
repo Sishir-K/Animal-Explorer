@@ -1,0 +1,12 @@
+{
+  "name": "Triceratops",
+  "folder": "triceratops",
+  "category": "Extinct",
+  "breeds": ["Triceratops horridus"],
+  "scientific_name": "Triceratops horridus",
+  "description": "Triceratops was a large herbivorous dinosaur with three facial horns and a bony frill. It lived in the Late Cretaceous of North America. Triceratops was among the last non‑avian dinosaurs before the mass extinction event.",
+  "habitat": "Plains and forests.",
+  "diet": "Plants.",
+  "lifespan": {"wild": "30-40 years", "protected": "N/A"},
+  "images": ["triceratops.jpg"]
+}

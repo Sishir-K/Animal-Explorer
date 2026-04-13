@@ -1,0 +1,12 @@
+{
+  "name": "Great Auk",
+  "folder": "great_auk",
+  "category": "Extinct",
+  "breeds": ["Pinguinus impennis"],
+  "scientific_name": "Pinguinus impennis",
+  "description": "The great auk (Pinguinus impennis) was a large flightless seabird once found in the North Atlantic. It was hunted extensively for its feathers, meat, and oil, driving it to extinction in the mid‑19th century. It bred on rocky islands and fed on fish and crustaceans.",
+  "habitat": "Coastal cliffs and islands.",
+  "diet": "Fish, crustaceans.",
+  "lifespan": {"wild": "20-25 years", "protected": "N/A"},
+  "images": ["great_auk.jpg"]
+}

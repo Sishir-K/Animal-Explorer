@@ -1,0 +1,12 @@
+{
+  "name": "Goat",
+  "folder": "goat",
+  "category": "Normal",
+  "breeds": ["Alpine", "Boer", "Nubian", "Saanen"],
+  "scientific_name": "Capra aegagrus hircus",
+  "description": "Domestic goats (Capra aegagrus hircus) are hardy ruminants kept for milk, meat, and fiber. They are adaptable to diverse climates and terrains and have been domesticated since ancient times. Goats are browsers, feeding on shrubs and grasses.",
+  "habitat": "Farms, grasslands.",
+  "diet": "Grass, shrubs, grains.",
+  "lifespan": {"wild": "12-18 years", "protected": "15-20 years"},
+  "images": ["goat.jpg"]
+}

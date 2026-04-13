@@ -1,0 +1,12 @@
+{
+  "name": "Quagga",
+  "folder": "quagga",
+  "category": "Extinct",
+  "breeds": ["Equus quagga quagga"],
+  "scientific_name": "Equus quagga quagga",
+  "description": "The quagga (Equus quagga quagga) was a subspecies of plains zebra with distinctive brown and white stripes only on the front part of its body. It lived in South Africa and became extinct in the 19th century due to hunting and competition with livestock.",
+  "habitat": "Grasslands of South Africa.",
+  "diet": "Grass.",
+  "lifespan": {"wild": "20-25 years", "protected": "N/A"},
+  "images": ["quagga.jpg"]
+}

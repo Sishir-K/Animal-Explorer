@@ -1,0 +1,12 @@
+{
+  "name": "Irish Elk",
+  "folder": "irish_elk",
+  "category": "Extinct",
+  "breeds": ["Megaloceros giganteus"],
+  "scientific_name": "Megaloceros giganteus",
+  "description": "The Irish elk (Megaloceros giganteus) was a giant deer species known for its immense antlers spanning up to 12 feet. It ranged across Eurasia during the Pleistocene. It became extinct around 7,700 years ago, likely due to climate change and human hunting.",
+  "habitat": "Grasslands and woodlands.",
+  "diet": "Grass, shrubs.",
+  "lifespan": {"wild": "15-20 years", "protected": "N/A"},
+  "images": ["irish_elk.jpg"]
+}

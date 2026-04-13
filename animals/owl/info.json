@@ -1,0 +1,12 @@
+{
+  "name": "Owl",
+  "folder": "owl",
+  "category": "Normal",
+  "breeds": ["Barn Owl", "Great Horned Owl", "Snowy Owl"],
+  "scientific_name": "Strigiformes",
+  "description": "Owls are nocturnal birds of prey with silent flight and large eyes adapted for night vision. They occupy diverse habitats worldwide and feed on rodents, insects, and birds. Owls are known for their distinctive calls and rotating head movements.",
+  "habitat": "Forests, grasslands, deserts.",
+  "diet": "Small mammals, insects, birds.",
+  "lifespan": {"wild": "10-20 years", "protected": "20-25 years"},
+  "images": ["owl.jpg"]
+}

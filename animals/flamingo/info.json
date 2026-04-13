@@ -1,0 +1,12 @@
+ {
+  "name": "Flamingo",
+  "folder": "flamingo",
+  "category": "Normal",
+  "breeds": ["Greater Flamingo", "Lesser Flamingo", "Chilean Flamingo"],
+  "scientific_name": "Phoenicopteridae",
+  "description": "Flamingos are tall wading birds with distinctive pink plumage caused by carotenoid pigments in their diet. They feed by filtering small organisms from shallow water with their specialized beaks. Flamingos inhabit salt lakes, lagoons, and mudflats across the world.",
+  "habitat": "Lakes, lagoons, salt flats.",
+  "diet": "Algae, crustaceans, plankton.",
+  "lifespan": {"wild": "20-30 years", "protected": "30-40 years"},
+  "images": ["flamingo.jpg"]
+}  

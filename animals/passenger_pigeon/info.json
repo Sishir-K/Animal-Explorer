@@ -1,0 +1,12 @@
+{
+  "name": "Passenger Pigeon",
+  "folder": "passenger_pigeon",
+  "category": "Extinct",
+  "breeds": ["Ectopistes migratorius"],
+  "scientific_name": "Ectopistes migratorius",
+  "description": "The passenger pigeon (Ectopistes migratorius) was once one of the most abundant birds in North America. It traveled in enormous flocks and fed on nuts and seeds. Intense hunting and habitat loss drove it to extinction in the early 20th century.",
+  "habitat": "Forests.",
+  "diet": "Seeds, nuts, fruits.",
+  "lifespan": {"wild": "10-15 years", "protected": "N/A"},
+  "images": ["passenger_pigeon.jpg"]
+}
