@@ -594,11 +594,13 @@ header {
         width: 400px;
         height: 200px;
     }
-
+    
     .animal-info {
         order: 2;
     }
-
+    .main-img {
+        width: 95%;
+    }
     .thumbnails img {
         width: 60px;
         height: 60px;

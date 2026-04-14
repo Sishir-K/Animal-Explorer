@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
     views[name] = (views[name] || 0) + 1;
     localStorage.setItem("animalViews", JSON.stringify(views));
 
-    fetch(`/animals/${name}/info.json`)
+    fetch(`animals/${name}/info.json`)
         .then(res => res.json())
         .then(data => {
 
@@ -80,11 +80,11 @@ document.addEventListener("DOMContentLoaded", () => {
                 mainImage.style.display = "none";
                 return;
             }
-            mainImage.src = `/animals/${name}/${images[0]}`;
+            mainImage.src = `animals/${name}/${images[0]}`;
 
             images.forEach((imgName, index) => {
                 const thumb = document.createElement("img");
-                thumb.src = `/animals/${name}/${imgName}`;
+                thumb.src = `animals/${name}/${imgName}`;
 
                 if (index === 0) thumb.classList.add("active");
 
