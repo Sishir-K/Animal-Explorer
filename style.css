@@ -458,7 +458,7 @@ header {
     width: 80%;
     max-width: 500px;
     height: auto;
-    margin: 10px auto;
+    margin: 5px auto;
     display: block;
     object-fit: cover;
     border-radius: 10px;
@@ -591,16 +591,18 @@ header {
 
     .animal-gallery {
         order: 1;
-        width: 400px;
-        height: 200px;
+        width: 90%;
+        height: auto;
     }
-    
+
     .animal-info {
         order: 2;
     }
+
     .main-img {
         width: 95%;
     }
+
     .thumbnails img {
         width: 60px;
         height: 60px;
