@@ -455,8 +455,10 @@ header {
 
 .main-img {
     width: 80%;
-    margin-top: 2%;
+    max-width: 500px;
     height: auto;
+    margin: 10px auto;
+    display: block;
     object-fit: cover;
     border-radius: 10px;
     transition: opacity 0.3s ease-in-out;
@@ -476,6 +478,8 @@ header {
     margin-top: 10px;
     border-top: 16px double rgb(80, 51, 25);
     padding: 5px;
+    width: 100%;
+    max-width: 100%;
     display: flex;
     justify-content: center;
     gap: 10px;
@@ -487,8 +491,9 @@ header {
 }
 
 .thumbnails img {
-    width: 65px;
-    height: 65px;
+    flex-shrink: 0;
+    width: 60px;
+    height: 60px;
     object-fit: cover;
     border-radius: 8px;
     cursor: pointer;
@@ -591,10 +596,6 @@ header {
 
     .animal-info {
         order: 2;
-    }
-
-    .main-img {
-        height: 220px;
     }
 
     .thumbnails img {
