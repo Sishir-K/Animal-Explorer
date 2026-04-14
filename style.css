@@ -11,7 +11,7 @@
     --bg-color: rgba(245, 243, 100, 0.541);
     --text-color: #000;
     --card-bg: rgb(146, 75, 9);
-    --navbar-bg: linear-gradient(50deg,orange,rgb(180, 53, 53), #eb1515);
+    --navbar-bg: linear-gradient(50deg, orange, rgb(180, 53, 53), #eb1515);
     --card-bo: rgb(236, 184, 14);
     --box-sh: 4px 4px 4px rgb(73, 54, 3);
 }
@@ -25,7 +25,7 @@
     --bg-color: rgba(15, 28, 59, 0.534);
     --text-color: #e5e7eb;
     --card-bg: linear-gradient(145deg, #1e293b, #0f172a);
-    --navbar-bg: linear-gradient(45deg,black,rgb(24, 26, 53),#020617);
+    --navbar-bg: linear-gradient(45deg, black, rgb(24, 26, 53), #020617);
     --card-bo: rgba(35, 39, 51, 0.911);
     --box-sh: 4px 4px 4px rgb(6, 7, 66);
 
@@ -210,27 +210,31 @@ header {
 
 #categoryFilter:hover .options-list {
     display: block;
-    background: linear-gradient(50deg, rgb(226, 75, 5), rgb(196, 17, 17), rgb(177, 38, 38), rgb(112, 54, 54));
+    background: rgb(196, 67, 44);
 }
+
 .dark-mode #categoryFilter:hover .options-list {
     background: linear-gradient(50deg, rgb(72, 42, 206), rgb(33, 53, 151), rgb(45, 45, 158), rgb(51, 31, 116));
 }
+
 .option {
     background: linear-gradient(50deg, rgb(226, 75, 5), rgb(196, 17, 17), rgb(177, 38, 38), rgb(112, 54, 54));
     border-radius: 5px;
     padding: 15px;
-    margin-top: 5px;
 }
 
 .option:hover {
-     background: linear-gradient(50deg, rgba(226, 75, 5, 0.8), rgba(196, 17, 17,0.8), rgba(177, 38, 38,0.8), rgba(112, 54, 54,0.8));
+    background: linear-gradient(50deg, rgba(226, 75, 5, 0.8), rgba(196, 17, 17, 0.8), rgba(177, 38, 38, 0.8), rgba(112, 54, 54, 0.8));
 }
-.dark-mode .option{
+
+.dark-mode .option {
     background: linear-gradient(50deg, rgb(72, 42, 206), rgb(33, 53, 151), rgb(45, 45, 158), rgb(51, 31, 116));
 }
-.dark-mode .option:hover{
+
+.dark-mode .option:hover {
     background: linear-gradient(50deg, rgba(132, 119, 190, 0.8), rgba(48, 64, 141, 0.8), rgba(8, 8, 70, 0.8), rgba(18, 3, 65, 0.8));
 }
+
 /*LOGIN*/
 .auth-section {
     margin-left: auto;
