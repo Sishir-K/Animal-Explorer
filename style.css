@@ -11,10 +11,10 @@
     --bg-color: rgba(245, 243, 100, 0.541);
     --text-color: #000;
     --card-bg: rgb(146, 75, 9);
-    --navbar-bg: linear-gradient(50deg, orange, rgb(180, 53, 53), #eb1515);
+    --navbar-bg:linear-gradient(135deg, rgb(10, 233, 95),rgb(16, 209, 90), rgb(37, 156, 75),rgb(47, 115, 117),rgb(16, 230, 183));
     --card-bo: rgb(236, 184, 14);
     --box-sh: 4px 4px 4px rgb(73, 54, 3);
-}
+}   
 
 .dark-mode body::before {
     background: rgba(0, 0, 0, 0.6);
@@ -132,7 +132,7 @@ header {
 .search-bar {
     display: flex;
     align-items: center;
-    background: linear-gradient(50deg, rgb(226, 75, 5), rgb(196, 17, 17), rgb(107, 31, 31), rgb(43, 29, 29));
+    background: linear-gradient(50deg, rgb(5, 230, 91), rgb(17, 196, 77), rgb(25, 122, 54), rgb(54, 112, 78),rgb(35, 77, 52));
     border-radius: 30px;
     gap: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
@@ -140,7 +140,7 @@ header {
 }
 
 #search {
-    background: linear-gradient(50deg, rgb(226, 75, 5), rgb(196, 17, 17), rgb(177, 38, 38), rgb(112, 54, 54));
+    background: linear-gradient(50deg, rgb(5, 230, 91), rgb(17, 196, 77), rgb(25, 122, 54), rgb(54, 112, 78),rgb(35, 77, 52));
     color: white;
 }
 
@@ -185,12 +185,12 @@ header {
 #categoryFilter {
     position: relative;
     display: inline-block;
-    width: 5rem;
+    width: 6rem;
     cursor: pointer;
     border-radius: 15px;
     color: white;
     padding: 10px;
-    background: linear-gradient(50deg, rgb(226, 75, 5), rgb(196, 17, 17), rgb(177, 38, 38), rgb(112, 54, 54));
+    background: linear-gradient(50deg, rgb(5, 230, 91), rgb(17, 196, 77), rgb(25, 122, 54), rgb(54, 112, 78));
 }
 
 .dark-mode #categoryFilter {
@@ -210,22 +210,22 @@ header {
 
 #categoryFilter:hover .options-list {
     display: block;
-    background: rgb(196, 67, 44);
+    background: rgb(11, 221, 123);
 }
 
 .dark-mode #categoryFilter:hover .options-list {
-    background: linear-gradient(50deg, rgb(72, 42, 206), rgb(33, 53, 151), rgb(45, 45, 158), rgb(51, 31, 116));
-}
+    background: rgb(32, 32, 32);}
 
 .option {
-    background: linear-gradient(50deg, rgb(226, 75, 5), rgb(196, 17, 17), rgb(177, 38, 38), rgb(112, 54, 54));
+    background: linear-gradient(50deg, rgb(5, 230, 91),rgb(16, 168, 74), rgb(31, 90, 50),rgb(26, 88, 44));
     border-radius: 5px;
     padding: 15px;
+    margin-top: 2px;
 }
 
 .option:hover {
-    background: linear-gradient(50deg, rgba(226, 75, 5, 0.8), rgba(196, 17, 17, 0.8), rgba(177, 38, 38, 0.8), rgba(112, 54, 54, 0.8));
-}
+    background: linear-gradient(50deg, rgb(5, 230, 174),rgb(16, 168, 135), rgb(31, 81, 90),rgb(19, 71, 73));
+    }
 
 .dark-mode .option {
     background: linear-gradient(50deg, rgb(72, 42, 206), rgb(33, 53, 151), rgb(45, 45, 158), rgb(51, 31, 116));
