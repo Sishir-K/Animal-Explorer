@@ -1,7 +1,3 @@
-*::selection {
-    background: transparent;
-}
-
 * {
     transition: background 0.3s, color 0.3s, transform 0.2s;
 }
@@ -89,7 +85,7 @@ body {
 }
 
 a {
-    text-decoration: red;
+    text-decoration: none;
     color: inherit;
 }
 
