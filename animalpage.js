@@ -80,11 +80,11 @@ document.addEventListener("DOMContentLoaded", () => {
                 mainImage.style.display = "none";
                 return;
             }
-            mainImage.src = `/animals/${name}/${images[0]}`;
+            mainImage.src = `animals/${name}/${images[0]}`;
 
             images.forEach((imgName, index) => {
                 const thumb = document.createElement("img");
-                thumb.src = `/animals/${name}/${imgName}`;
+                thumb.src = `animals/${name}/${imgName}`;
 
                 if (index === 0) thumb.classList.add("active");
 
