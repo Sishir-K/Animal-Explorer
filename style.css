@@ -590,7 +590,7 @@ header {
 
     .animal-gallery {
         order: 1;
-        width: 400px;
+        width: 100%;
         height: 200px;
     }
     
