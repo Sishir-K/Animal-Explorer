@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
     views[name] = (views[name] || 0) + 1;
     localStorage.setItem("animalViews", JSON.stringify(views));
 
-    fetch(`/animals/${name}/info.json`)
+    fetch(`animals/${name}/info.json`)
         .then(res => res.json())
         .then(data => {
 
