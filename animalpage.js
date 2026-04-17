@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             const prevBtn = document.getElementById("prevBtn");
             const nextBtn = document.getElementById("nextBtn");
-            const scrollAmount = 100;
+            const scrollAmount = 130;
 
 
             mainImage.onclick = () => {

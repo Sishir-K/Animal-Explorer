@@ -85,7 +85,6 @@ const animals = [
 const endangered = ["albatross","amur_leopard","axolotl", "black_rhino", "blue_whale", "cheetah", "cross_river_gorilla", "giant_otter", "gorilla", "hawksbill_turtle", "kakapo", "orangutan", "panda", "philippine_eagle", "polar_bear", "rhino", "saola", "snow_leopard", "sumatran_elephant", "tapir", "tiger", "vaquita", "white_tiger"];
 const extinct = ["auroch", "brachiosaurus", "dodo", "great_auk", "haast_eagle", "irish_elk", "mammoth", "megalodon", "moa", "passenger_pigeon", "pterodactyl", "pyrenean_ibex", "quagga", "saber_toothed_cat", "spinosaurus", "stegosaurus", "thylacine", "trex", "triceratops", "velociraptor"];
 
-// Track the currently selected category (replaces categoryFilter.value)
 let currentCategory = "all";
 
 function loadPopularAnimals() {
@@ -162,7 +161,7 @@ function loadAllAnimals() {
 function applyFilters() {
     const searchInput = document.getElementById("search");
     const query = searchInput.value.toLowerCase();
-    const cat = currentCategory; // use the JS variable, not .value
+    const cat = currentCategory;
 
     document.querySelectorAll(".card").forEach(card => {
         const name = card.querySelector("h3")?.textContent.toLowerCase() || "";
@@ -236,7 +235,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const searchInput = document.getElementById("search");
     searchInput.addEventListener("input", applyFilters);
 
-    // Handle URL params (e.g. coming back from animal.html)
+    // Handles URL params 
     const params = new URLSearchParams(window.location.search);
     const searchParam = params.get("search");
     const categoryParam = params.get("category");
@@ -248,7 +247,6 @@ document.addEventListener("DOMContentLoaded", () => {
     if (categoryParam) {
         currentCategory = categoryParam;
 
-        // Also update the dropdown display to match
         const dropdown = document.getElementById("categoryFilter");
         if (dropdown) {
             const matchingOption = dropdown.querySelector(`.option[data-value="${categoryParam}"]`);
