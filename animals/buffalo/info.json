@@ -1,0 +1,15 @@
+{
+  "name": "Buffalo",
+  "folder": "buffalo",
+  "category": "Normal",
+  "scientific_name": "Bubalus bubalis",
+  "breeds": ["River Buffalo", "Swamp Buffalo"],
+  "description": "The buffalo is a large herbivorous mammal known for its strength and thick horns. It is commonly domesticated for milk and labor, but wild buffalo are known for being unpredictable and dangerous.",
+  "habitat": "Grasslands, wetlands, and river plains, mainly in Asia and parts of Africa.",
+  "diet": "Herbivorous (grass, aquatic plants, and vegetation).",
+  "lifespan": {
+    "wild": "15-20 years",
+    "protected": "20-25 years"
+  },
+  "images": ["buffalo.jpg"]
+}

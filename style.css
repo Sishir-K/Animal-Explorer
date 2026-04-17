@@ -437,22 +437,23 @@ header {
 }
 
 .animal-gallery {
-    height: 35rem;
+    height: auto;
+    min-height: 35rem;
     max-width: 500px;
     margin: auto;
     text-align: center;
-    border: 16px double rgb(80, 51, 25);
+    border: 12px double rgb(80, 51, 25);
     flex: 1;
     order: 2;
 }
 
 .dark-mode .animal-gallery {
-    border: 16px double rgb(23, 18, 65);
+    border: 12px double rgb(23, 18, 65);
 }
 
 .main-img {
-    width: 80%;
-    max-width: 500px;
+    width: 100%;
+    max-width: 100%;
     height: auto;
     margin: 5px auto;
     display: block;
@@ -473,24 +474,25 @@ header {
 
 .thumbnails {
     margin-top: 10px;
-    border-top: 16px double rgb(80, 51, 25);
+    border-top: 12px double rgb(80, 51, 25);
     padding: 5px;
     width: 100%;
     max-width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 10px;
+    box-sizing: border-box;
     overflow-x: auto;
 }
 
 .dark-mode .thumbnails {
-    border-top: 16px double rgb(23, 18, 65);
+    border-top: 12px double rgb(23, 18, 65);
 }
 
 .thumbnails img {
     flex-shrink: 0;
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
     object-fit: cover;
     border-radius: 8px;
     cursor: pointer;

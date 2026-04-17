@@ -2,6 +2,7 @@
 const animals = [
     // Normal (30)
     { name: "Bear", folder: "bear" },
+    { name:"Buffalo", folder: "buffalo"},
     { name: "Cat", folder: "cat" },
     { name: "Cow", folder: "cow" },
     { name: "Deer", folder: "deer" },
@@ -16,6 +17,8 @@ const animals = [
     { name: "Hawk", folder: "hawk" },
     { name: "Hedgehog", folder: "hedgehog" },
     { name: "Horse", folder: "horse" },
+    { name: "Leopard", folder: "leopard"},
+    { name: "Lion", folder: "lion"},
     { name: "Meerkat", folder: "meerkat" },
     { name: "Owl", folder: "owl" },
     { name: "Parrot", folder: "parrot" },

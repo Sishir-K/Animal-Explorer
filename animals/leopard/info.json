@@ -1,0 +1,15 @@
+{
+  "name": "Leopard",
+  "folder": "leopard",
+  "category": "Normal",
+  "scientific_name": "Panthera pardus",
+  "breeds": ["African Leopard", "Indian Leopard", "Amur Leopard"],
+  "description": "The leopard is a powerful and adaptable big cat known for its spotted coat and stealthy hunting skills. It is an excellent climber and often drags its prey up trees to keep it safe from scavengers.",
+  "habitat": "Forests, grasslands, mountains, and savannas across Africa and Asia.",
+  "diet": "Carnivorous (deer, monkeys, birds, and small mammals).",
+  "lifespan": {
+    "wild": "12-17 years",
+    "protected": "20-23 years"
+  },
+  "images": ["leopard.jpg"]
+}

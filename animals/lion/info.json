@@ -1,0 +1,12 @@
+{
+  "name": "Lion",
+  "folder": "lion",
+  "category": "Normal",
+  "scientific_name": "Panthera leo",
+  "breeds": ["African Lion", "Asiatic Lion"],
+  "description": "The lion is a large carnivorous mammal known as the 'king of the jungle'. It lives in social groups called prides and is recognized for its strength, loud roar, and dominance in the wild.",
+  "habitat": "Grasslands, savannas, and open woodlands of Africa and parts of India.",
+  "diet": "Meat (zebras, antelopes, buffalo, and other animals).",
+  "lifespan": {"wild": "10-14 years","protected": "15-20 years"},
+  "images": ["lion.jpg","lion2.jpg"]
+}
