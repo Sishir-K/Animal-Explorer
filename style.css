@@ -483,7 +483,7 @@ header {
 #categoryFilter {
     position: relative;
     display: inline-block;
-    width: 6rem;
+    width: 8rem;
     cursor: pointer;
     border-radius: 15px;
     color: white;
