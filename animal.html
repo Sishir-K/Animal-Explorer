@@ -6,90 +6,212 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Animal Explorer</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap" rel="stylesheet">
 </head>
 
-    <body>
-        <header class="navbar">
-            <div>
-                <a href="index.html">
-                    <h2 style="font-size: 38px">Animal Explorer</h2>
-                </a>
+<body>
+
+    <!-- ══ SIDEBAR ════════════════════════════════════════ -->
+    <div id="sidebarOverlay" class="sidebar-overlay"></div>
+    <aside id="sidebar" class="sidebar">
+        <div class="sidebar-header">
+            <span>🐾 Explorer Menu</span>
+            <button id="closeSidebar" class="sidebar-close">✕</button>
+        </div>
+
+        <!-- Search -->
+        <div class="sidebar-section">
+            <label class="sidebar-label">🔍 Search Animals</label>
+            <div class="sidebar-search-wrap">
+                <input type="search" id="sidebarSearch" placeholder="Search animals..." class="sidebar-input">
             </div>
+        </div>
 
-            <div class="right-section">
-                <div class="search-bar">
-                    <span class="icon">
-                        <img src="magGlass.png" style="height: 30px;border-radius: 50%;margin-top: 4px;">
-                    </span>
+        <!-- Category Filter -->
+        <div class="sidebar-section">
+            <label class="sidebar-label">🗂 Category</label>
+            <div class="sidebar-cat-buttons">
+                <button class="sidebar-cat-btn active-cat" data-value="all">All</button>
+                <button class="sidebar-cat-btn" data-value="normal">Normal</button>
+                <button class="sidebar-cat-btn" data-value="endangered">⚠️ Endangered</button>
+                <button class="sidebar-cat-btn" data-value="extinct">🦴 Extinct</button>
+            </div>
+        </div>
 
-                    <input type="search" id="search" placeholder="Search animals...">
+        <!-- Dark / Light Mode -->
+        <div class="sidebar-section">
+            <label class="sidebar-label">🌗 Dark Mode</label>
+            <div class="sidebar-toggle-row">
+                <span class="toggle-label-off">☀️ Light</span>
+                <label class="switch">
+                    <input type="checkbox" id="sidebarDarkToggle">
+                    <span class="slider-knob"></span>
+                </label>
+                <span class="toggle-label-on">🌙 Dark</span>
+            </div>
+        </div>
 
-                    <select id="categoryFilter">
-                        <option value="all">All</option>
-                        <option value="normal">Normal</option>
-                        <option value="endangered">Endangered</option>
-                        <option value="extinct">Extinct</option>
-                    </select>
-                </div>
-                <button id="themeToggle" class="theme-btn">
-                    <span class="icon">🌙</span>
+        <!-- Animal Theme -->
+        <div class="sidebar-section">
+            <label class="sidebar-label">🎨 Background Theme</label>
+            <div class="sidebar-theme-grid">
+                <button class="sidebar-theme-option" data-theme="lion">
+                    <span class="theme-emoji">🦁</span>
+                    <span>Lion</span>
                 </button>
-                <div class="auth-section">
-                    <button id="loginBtn">Sign in</button>
-                </div>
+                <button class="sidebar-theme-option" data-theme="wolf">
+                    <span class="theme-emoji">🐺</span>
+                    <span>Wolf</span>
+                </button>
+                <button class="sidebar-theme-option" data-theme="flamingo">
+                    <span class="theme-emoji">🦩</span>
+                    <span>Flamingo</span>
+                </button>
             </div>
-        </header>
-        <div class="animal-page">
-            <div class="animal-gallery">
-                <img id="mainImage" class="main-img">
-                <div class="thumbnail-wrapper">
-                    <button id="prevBtn" class="nav-btn">&lt;</button>
-                    <div id="thumbnails" class="thumbnails"></div>
-                    <button id="nextBtn" class="nav-btn">&gt;</button>
-                </div>
-            </div>
-
-            <div class="animal-info">
-                <h1 id="animalName" style="padding:0px ;"></h1>
-                <p id="animalScientific" style="padding-top:0px ;"></p>
-                <p id="animalViews"></p>
-                <p id="animalStatus"></p>
-                <p id="animalDesc"></p>
-                <p id="animalHabitat"></p>
-                <p id="animalDiet"></p>
-                <p id="animalLifespan"></p>
-                <p id="animalBreeds"></p>
-            </div>
-
-            
         </div>
-        <div><a href="index.html" id="back">⬅ Back</a></div>
-        <div id="authModal" class="modal">
+
+        <!-- Auth -->
+        <div class="sidebar-section">
+            <label class="sidebar-label">👤 Account</label>
+            <button id="sidebarAuthBtn" class="sidebar-auth-btn">Sign In</button>
+            <div id="sidebarUserInfo" class="sidebar-user-info" style="display:none"></div>
+        </div>
+
+        <!-- Navigation links -->
+        <div class="sidebar-section">
+            <label class="sidebar-label">📖 Navigate</label>
+            <a href="index.html" class="sidebar-nav-link">🏠 Home</a>
+        </div>
+
+        <div class="sidebar-footer">Animal Explorer &copy; 2025</div>
+    </aside>
+
+    <!-- ══ NAVBAR ════════════════════════════════════════ -->
+    <header class="navbar">
+        <div class="navbar-left">
+            <button id="sidebarToggle" class="sidebar-toggle-btn" title="Open menu">☰</button>
+            <a href="index.html">
+                <h2 style="font-size: 38px">Animal Explorer</h2>
+            </a>
+        </div>
+        <div class="right-section">
+            <div class="search-bar">
+                <span class="icon">
+                    <img src="magGlass.png" style="height:30px;border-radius:50%;margin-top:4px;">
+                </span>
+                <input type="search" id="search" placeholder="Search animals...">
+                <select id="categoryFilter">
+                    <option value="all">All</option>
+                    <option value="normal">Normal</option>
+                    <option value="endangered">Endangered</option>
+                    <option value="extinct">Extinct</option>
+                </select>
+            </div>
+            <button id="themeToggle" class="theme-btn">
+                <span class="icon">🌙</span>
+            </button>
+            <div class="auth-section">
+                <button id="loginBtn">Sign in</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- ══ ANIMAL PAGE ════════════════════════════════════ -->
+    <div class="animal-page">
+
+        <!-- Gallery -->
+        <div class="animal-gallery">
+            <img id="mainImage" class="main-img">
+            <div class="thumbnail-wrapper">
+                <button id="prevBtn" class="nav-btn">&lt;</button>
+                <div id="thumbnails" class="thumbnails"></div>
+                <button id="nextBtn" class="nav-btn">&gt;</button>
+            </div>
+        </div>
+
+        <!-- Info Panel — redesigned -->
+        <div class="animal-info">
+            <!-- Name + Scientific -->
+            <div class="info-name-block">
+                <h1 id="animalName"></h1>
+                <p id="animalScientific" class="scientific-name"></p>
+                <div class="info-badges">
+                    <span id="statusBadge" class="status-badge"></span>
+                    <span id="viewsBadge" class="views-badge">👁 <span id="animalViews"></span></span>
+                </div>
+            </div>
+
+            <!-- Description card -->
+            <div class="info-card">
+                <div class="info-card-title">📖 About</div>
+                <p id="animalDesc" class="info-card-body"></p>
+            </div>
+
+            <!-- Stats grid -->
+            <div class="info-stats-grid">
+                <div class="info-stat-item">
+                    <div class="stat-icon">🌍</div>
+                    <div class="stat-content">
+                        <div class="stat-label">Habitat</div>
+                        <div id="animalHabitat" class="stat-value"></div>
+                    </div>
+                </div>
+                <div class="info-stat-item">
+                    <div class="stat-icon">🍖</div>
+                    <div class="stat-content">
+                        <div class="stat-label">Diet</div>
+                        <div id="animalDiet" class="stat-value"></div>
+                    </div>
+                </div>
+                <div class="info-stat-item">
+                    <div class="stat-icon">⏳</div>
+                    <div class="stat-content">
+                        <div class="stat-label">Lifespan (Wild)</div>
+                        <div id="animalLifespanWild" class="stat-value"></div>
+                    </div>
+                </div>
+                <div class="info-stat-item">
+                    <div class="stat-icon">🛡️</div>
+                    <div class="stat-content">
+                        <div class="stat-label">Lifespan (Protected)</div>
+                        <div id="animalLifespanProtected" class="stat-value"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Breeds / Species -->
+            <div class="info-card">
+                <div class="info-card-title">🔬 Breeds / Species</div>
+                <div id="animalBreeds" class="info-card-body breeds-wrap"></div>
+            </div>
+        </div>
+    </div>
+
+    <div><a href="index.html" id="back">⬅ Back</a></div>
+
+    <!-- ══ AUTH MODAL ════════════════════════════════════ -->
+    <div id="authModal" class="modal">
         <div class="modal-content">
-
-                <span id="closeModal">&times;</span>
-
-                <h2 id="formTitle">Login</h2>
-
-                <input type="text" id="username" placeholder="Username">
-                <input type="password" id="password" placeholder="Password">
-
-                <button id="submitBtn">Login</button>
-
-                <p id="toggleText">
-                    Don't have an account?
-                    <span id="toggleForm">Register</span>
-                </p>
-
-            </div>
+            <span id="closeModal">&times;</span>
+            <h2 id="formTitle">Login</h2>
+            <input type="text" id="username" placeholder="Username">
+            <input type="password" id="password" placeholder="Password">
+            <button id="submitBtn">Login</button>
+            <p id="toggleText">Don't have an account? <span id="toggleForm">Register</span></p>
         </div>
-        <div id="imageModal" class="image-modal">
-            <span id="closeImage">&times;</span>
-            <img id="modalImg">
-        </div>
-        <script src="auth.js"></script>
-        <script src="animalpage.js"></script>
-        <script src="theme.js"></script>
-    </body>
+    </div>
 
+    <!-- ══ IMAGE LIGHTBOX ═════════════════════════════════ -->
+    <div id="imageModal" class="image-modal">
+        <span id="closeImage">&times;</span>
+        <img id="modalImg">
+    </div>
+
+    <script src="auth.js"></script>
+    <script src="animalpage.js"></script>
+    <script src="theme.js"></script>
+    <script src="sidebar.js"></script>
+</body>
 </html>

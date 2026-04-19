@@ -1,14 +1,3 @@
-loginBtn.onclick = () => {
-    const user = localStorage.getItem("currentUser");
-
-    if (user) {
-        localStorage.removeItem("currentUser");
-        alert("Logged out");
-        location.reload();
-    } else {
-        modal.style.display = "flex";
-    }
-};
 const modal = document.getElementById("authModal");
 const closeModal = document.getElementById("closeModal");
 

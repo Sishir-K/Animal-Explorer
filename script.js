@@ -185,7 +185,7 @@ function applyFilters() {
     });
 }
 
-function setupCustomDropdown() {
+function customDropdown() {
     const dropdown = document.getElementById("categoryFilter");
     if (!dropdown) return;
 
@@ -230,7 +230,7 @@ function setupCustomDropdown() {
 document.addEventListener("DOMContentLoaded", () => {
     loadPopularAnimals();
     loadAllAnimals();
-    setupCustomDropdown();
+    customDropdown();
 
     const searchInput = document.getElementById("search");
     searchInput.addEventListener("input", applyFilters);

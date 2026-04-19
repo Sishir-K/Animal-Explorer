@@ -12,23 +12,94 @@
 </head>
 
 <body>
+    <div id="sidebarOverlay" class="sidebar-overlay"></div>
+    <aside id="sidebar" class="sidebar">
+        <div class="sidebar-header">
+            <span>🐾 Explorer Menu</span>
+            <button id="closeSidebar" class="sidebar-close">✕</button>
+        </div>
 
+        <div class="sidebar-section">
+            <label class="sidebar-label"> Search Animals</label>
+            <div class="sidebar-search-wrap">
+                <input type="search" id="sidebarSearch" placeholder="Search animals..." class="sidebar-input">
+            </div>
+        </div>
+
+        <!-- Category Filter -->
+        <div class="sidebar-section">
+            <label class="sidebar-label">🗂 Category</label>
+            <div class="sidebar-cat-buttons">
+                <button class="sidebar-cat-btn active-cat" data-value="all">All</button>
+                <button class="sidebar-cat-btn" data-value="normal">Normal</button>
+                <button class="sidebar-cat-btn" data-value="endangered">⚠️ Endangered</button>
+                <button class="sidebar-cat-btn" data-value="extinct">🦴 Extinct</button>
+            </div>
+        </div>
+
+        <!-- Dark / Light Mode -->
+        <div class="sidebar-section">
+            <label class="sidebar-label">🌗 Dark Mode</label>
+            <div class="sidebar-toggle-row">
+                <span class="toggle-label-off">☀️ Light</span>
+                <label class="switch">
+                    <input type="checkbox" id="sidebarDarkToggle">
+                    <span class="slider-knob"></span>
+                </label>
+                <span class="toggle-label-on">🌙 Dark</span>
+            </div>
+        </div>
+
+        <!-- Animal Theme -->
+        <div class="sidebar-section">
+            <label class="sidebar-label">🎨 Background Theme</label>
+            <div class="sidebar-theme-grid">
+                <button class="sidebar-theme-option" data-theme="lion">
+                    <span class="theme-emoji">🦁</span>
+                    <span>Lion</span>
+                </button>
+                <button class="sidebar-theme-option" data-theme="wolf">
+                    <span class="theme-emoji">🐺</span>
+                    <span>Wolf</span>
+                </button>
+                <button class="sidebar-theme-option" data-theme="flamingo">
+                    <span class="theme-emoji">🦩</span>
+                    <span>Flamingo</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Auth -->
+        <div class="sidebar-section">
+            <label class="sidebar-label">👤 Account</label>
+            <button id="sidebarAuthBtn" class="sidebar-auth-btn">Sign In</button>
+            <div id="sidebarUserInfo" class="sidebar-user-info" style="display:none"></div>
+        </div>
+
+        <!-- Navigation links -->
+        <div class="sidebar-section">
+            <label class="sidebar-label">📖 Navigate</label>
+            <a href="index.html" class="sidebar-nav-link">🏠 Home</a>
+        </div>
+
+        <div class="sidebar-footer">Animal Explorer &copy; 2025</div>
+    </aside>
+
+    <!-- ══ NAVBAR ════════════════════════════════════════ -->
     <header class="navbar">
-        <div>
+        <div class="navbar-left">
+            <button id="sidebarToggle" class="sidebar-toggle-btn" title="Open menu">☰</button>
             <a href="index.html">
                 <h2 style="font-size: 38px">Animal Explorer</h2>
             </a>
         </div>
         <div class="right-section">
             <div class="search-bar">
-                <span class="icon"><img src="magGlass.png" style="height: 30px;border-radius: 
-                50%;margin-top: 4px;"></span>
-
+                <span class="icon"><img src="magGlass.png" style="height:30px;border-radius:50%;margin-top:4px;"></span>
                 <input type="search" id="search" placeholder="Search animals...">
-
                 <div id="categoryFilter">
-                        <div class="selected-value">All</div>
-                        <div class="options-list">
+                    <div class="selected-value">All</div>
+                    <div class="options-list">
                         <div class="option" data-value="all">All</div>
                         <div class="option" data-value="normal">Normal</div>
                         <div class="option" data-value="endangered">Endangered</div>
@@ -44,49 +115,42 @@
             </div>
         </div>
     </header>
-    <main class="animal-sections">
 
+    <!-- ══ MAIN ══════════════════════════════════════════ -->
+    <main class="animal-sections">
         <section class="types">
             <h2>🐾 Most Popular Animals</h2>
             <div id="popularContainer" class="card-grid"></div>
         </section>
-
         <section class="types">
             <h2>⚠️ Endangered Animals</h2>
             <div id="endangeredContainer" class="card-grid"></div>
         </section>
-
         <section class="types">
             <h2>🦴 Extinct Animals</h2>
             <div id="extinctContainer" class="card-grid"></div>
         </section>
         <section class="types">
-            <h2> Normal Animals</h2>
+            <h2>🌿 Normal Animals</h2>
             <div id="animalContainer" class="card-grid"></div>
         </section>
-
     </main>
+
+    <!-- ══ AUTH MODAL ════════════════════════════════════ -->
     <div id="authModal" class="modal">
         <div class="modal-content">
-
             <span id="closeModal">&times;</span>
             <h2 id="formTitle">Login</h2>
-
             <input type="text" id="username" placeholder="Username">
             <input type="password" id="password" placeholder="Password">
-
             <button id="submitBtn">Login</button>
-
-            <p id="toggleText">
-                Don't have an account?
-                <span id="toggleForm">Register</span>
-            </p>
-
+            <p id="toggleText">Don't have an account? <span id="toggleForm">Register</span></p>
         </div>
     </div>
+
     <script src="auth.js"></script>
     <script src="script.js"></script>
     <script src="theme.js"></script>
+    <script src="sidebar.js"></script>
 </body>
-
 </html>
