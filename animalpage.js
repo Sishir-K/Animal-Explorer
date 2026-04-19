@@ -10,7 +10,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 align-items:center;
                 flex-direction:column;
                 color:white;
-                background: #0a0a0a;
+                background: #0a0a0ab4;
+                z-index:1;
             ">
                 <h2 style="font-size:4rem;margin-bottom:5px;">🔒 Login Required</h2>
                 <p style="font-size:1.5rem;margin:0 0 20px 0">Please login to view animal details</p>
