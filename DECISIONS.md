@@ -18,7 +18,7 @@ ID | Requirement | Why |
 
 R1 | Home page has a light background of white with green accents potraying nature and just a search bar with category bubbles underneath | A first time visitor sees this minimalistic site and searches for what he needs |
 
-R2 | Searching for animal in the search bar should open a clean detail page with one or more images and key facts along with cited sources of those facts (mostly wikepedia) | It is to make sure that incorrect typos like "lyon" also works along with "lion" and "Lion" |
+R2 | Searching for animal in the search bar should open a clean detail page with one or more images and key facts along with cited sources of those facts (mostly wikepedia) | A user should get the facts and the proof in one place.
 
 R3 | Seaching for a category instead like carnivourous,birds etc gives you a brief explanation of the category with a citation and a below grid of matching animals. | Searching birds, tells you what birds are then show a grid of birds like sparrow,pelican etc.. |
 
@@ -30,7 +30,7 @@ R6 | Every fact and image must have a corresponding source, with appropriate lin
 
 R7 |  A "Read More" area that links to the full source articles when data is thin | It is to make sure that in the offchance, that we do not have data for a new organism or bacteria maybe. Then we can provide a link for who might have this information.
 
-R8 | A keyboard shortcut for the searchbar which is default backslash | To make it more convinient for lazy sould like me
+R8 | A keyboard shortcut for the searchbar which is default slash (/) | To make it more convinient for lazy sould like me
 
 R9 | Works on multiple devices like phones, laptops, keyboard navigation,screen readers, light and dark mode | To enhance user experience. I would not like to zoom to 200% just to type
 
@@ -46,5 +46,5 @@ R9 | Works on multiple devices like phones, laptops, keyboard navigation,screen 
 
 ## Technologies Used
 * Frontend: HTML,CSS
-* Backend: JavaScript
+* Backend: Node scripts at build time, plus browser JavaScript;no server
 
